@@ -13,7 +13,7 @@ export type IBlogGalleryProps = {
 
 const BlogGallery = (props: IBlogGalleryProps) => (
   <>
-    <ul>
+    <ul className='blog-list'>
       {props.posts.map((elt) => (
         <li key={elt.slug} className="mb-3 flex justify-between">
           <Link href="/posts/[slug]" as={`/posts/${elt.slug}`}>

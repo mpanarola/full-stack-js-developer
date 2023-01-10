@@ -7,7 +7,7 @@ const Learn = () => (
   <Main meta={<Meta title="Lorem ipsum" description="Lorem ipsum" />}>
 
     <Content>
-
+    <div className='md:container md:mx-auto'>
     <h2>Learn</h2>
 
     <p>
@@ -23,7 +23,7 @@ const Learn = () => (
         labore voluptatibus distinctio recusandae autem esse explicabo molestias
         officia placeat, accusamus aut saepe.
       </p>
-
+</div>
 
 
 

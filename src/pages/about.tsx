@@ -8,6 +8,7 @@ const About = () => (
   <Main meta={<Meta title="Lorem ipsum" description="Lorem ipsum" />}>
     <Content>
 
+    <div className='md:container md:mx-auto'>
     <h2>About Us</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione fuga
@@ -21,6 +22,7 @@ const About = () => (
         labore voluptatibus distinctio recusandae autem esse explicabo molestias
         officia placeat, accusamus aut saepe.
       </p>
+      </div>
     </Content>
   </Main>
 );

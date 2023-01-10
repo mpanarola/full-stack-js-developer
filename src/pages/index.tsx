@@ -18,7 +18,9 @@ const Index = (props: IBlogGalleryProps) => (
       />
     }
   >
+    <div className='md:container md:mx-auto'>
     <BlogGallery posts={props.posts} pagination={props.pagination} />
+    </div>
   </Main>
 );
 
